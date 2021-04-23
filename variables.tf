@@ -35,5 +35,5 @@ variable "instance_type" {
     prod = "t2.medium"
     }
 }
-#variable "profile" {}
+variable "profile" {}
 
