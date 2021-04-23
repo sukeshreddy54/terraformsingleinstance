@@ -6,14 +6,14 @@ provider "aws" {
     profile = "${var.profile}"
 }
 
-terraform {
-  backend "s3" {
-    bucket = "sreeterraformbucket"
-    key    = "devopsb16jenkins.tfstate"
-    region = "us-east-1"
-    profile = "dev"
-  }
-}
+# terraform {
+#   backend "s3" {
+#     bucket = "sreeterraformbucket"
+#     key    = "devopsb16jenkins.tfstate"
+#     region = "us-east-1"
+#     profile = "dev"
+#   }
+# }
 
 resource "aws_vpc" "default" {
     cidr_block = "${var.vpc_cidr}"
