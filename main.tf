@@ -11,6 +11,7 @@ terraform {
     bucket = "sreeterraformbucket"
     key    = "devopsb16jenkins.tfstate"
     region = "us-east-1"
+    profile = "dev"
   }
 }
 
