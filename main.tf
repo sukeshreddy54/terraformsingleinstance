@@ -2,7 +2,7 @@
 provider "aws" {
     #access_key = "${var.aws_access_key}"
     #secret_key = "${var.aws_secret_key}"
-    shared_credentials_file = "/var/lib/jenkins/.aws/credentials"
+    #shared_credentials_file = "/var/lib/jenkins/.aws/credentials"
     #region = "${var.aws_region}"
     #profile = "${var.profile}"
     profile = "prod"
