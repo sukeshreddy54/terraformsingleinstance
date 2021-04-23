@@ -5,7 +5,7 @@ provider "aws" {
     shared_credentials_file = "/var/lib/jenkins/.aws/credentials"
     region = "${var.aws_region}"
     #profile = "${var.profile}"
-    profile = "dev"
+    profile = "prod"
 }
 
 # terraform {
