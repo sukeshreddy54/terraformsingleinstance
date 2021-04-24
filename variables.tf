@@ -38,3 +38,4 @@ variable "instance_type" {
     }
 }
 
+variable "imagename" { default = "ami-0cd31035d210ea795" }
