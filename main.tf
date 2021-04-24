@@ -120,7 +120,8 @@ resource "aws_instance" "web-1" {
     tags = {
         Name = "Server-1"
         Env = "Prod"
-        Owner = "Sreeharsha"
+        Owner = "Sreeharsha Veerapalli"
+	Course = "English DevOps B06"
 	CostCenter = "ABCD"
     }
 }
